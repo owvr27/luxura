@@ -1,0 +1,31 @@
+==================================================
+PREDICTION SUMMARY REPORT
+==================================================
+
+Total images tested: 15
+Average confidence: 93.56%
+Confidence std dev: 9.28%
+
+Class Distribution:
+------------------------------
+metal: 5 images (33.3%)
+paper: 5 images (33.3%)
+plastic: 5 images (33.3%)
+
+Detailed Predictions:
+--------------------------------------------------
+1.jpg: plastic (Confidence: 73.52%)
+10.jpg: metal (Confidence: 90.41%)
+11.jpg: paper (Confidence: 99.65%)
+12.jpg: paper (Confidence: 99.27%)
+13.jpg: metal (Confidence: 81.59%)
+14.jpg: paper (Confidence: 99.99%)
+15.jpg: paper (Confidence: 94.54%)
+2.jpg: plastic (Confidence: 92.13%)
+3.jpg: plastic (Confidence: 100.00%)
+4.jpg: plastic (Confidence: 99.58%)
+5.jpg: plastic (Confidence: 73.75%)
+6.jpg: metal (Confidence: 100.00%)
+7.jpg: metal (Confidence: 99.38%)
+8.jpg: paper (Confidence: 99.79%)
+9.jpg: metal (Confidence: 99.79%)

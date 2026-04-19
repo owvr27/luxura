@@ -1,0 +1,26 @@
+TRASHNET DATASET SETUP GUIDE
+================================
+
+QUICK START:
+1. Install kagglehub: pip install kagglehub
+2. Download dataset:
+   import kagglehub
+   path = kagglehub.dataset_download("vishwasmishra1234/trash-net")
+3. Run integration: python trashnet_integration.py
+4. Train model: python train_trashnet_model.py
+
+EXPECTED RESULTS:
+- Dataset size: ~2,500+ real waste images
+- Accuracy: 96-98% with enhanced model
+- Classes: 6 original -> 3 mapped categories
+
+CLASS MAPPING:
+- Paper, Cardboard -> paper
+- Plastic, Bottle, Glass -> plastic  
+- Metal, Can -> metal
+
+TRASHNET ADVANTAGES:
+- Real photographic waste images
+- Diverse lighting and angles
+- Multiple waste types per class
+- Proven benchmark dataset

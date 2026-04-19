@@ -1,0 +1,3611 @@
+{
+  message: 'OpenAI API key not configured, using fallback responses',
+  level: 'warn',
+  service: 'luxora-backend',
+  timestamp: '2026-03-08 19:02:22'
+}
+{
+  message: '\n==================================================',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-03-08 19:02:22'
+}
+{
+  message: '🚀 Luxora Environmental API Server',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-03-08 19:02:22'
+}
+{
+  message: '📦 Version: 2.0.0',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-03-08 19:02:22'
+}
+{
+  message: '🌍 Environment: development',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-03-08 19:02:22'
+}
+{
+  message: '🔗 Server running on http://localhost:4000',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-03-08 19:02:22'
+}
+{
+  message: '📡 CORS enabled for: http://localhost:3000',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-03-08 19:02:22'
+}
+{
+  message: '==================================================\n',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-03-08 19:02:22'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/api/chat',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.26100.7705',
+  timestamp: '2026-03-08 19:02:50',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  error: 'Authentication required',
+  stack: 'Error: Authentication required\n' +
+    '    at <anonymous> (C:\\projects\\luxora-\\backend\\src\\middleware\\auth.ts:16:13)\n' +
+    '    at <anonymous> (C:\\projects\\luxora-\\backend\\src\\middleware\\errorHandler.ts:55:19)\n' +
+    '    at Layer.handle [as handle_request] (C:\\projects\\luxora-\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\projects\\luxora-\\backend\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (C:\\projects\\luxora-\\backend\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\projects\\luxora-\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\projects\\luxora-\\backend\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\projects\\luxora-\\backend\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\projects\\luxora-\\backend\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\projects\\luxora-\\backend\\node_modules\\express\\lib\\router\\index.js:175:3)',
+  url: '/api/chat',
+  method: 'POST',
+  ip: '::1',
+  statusCode: 401,
+  level: 'error',
+  message: 'Error occurred:',
+  timestamp: '2026-03-08 19:02:50'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/api/chat',
+  statusCode: 401,
+  duration: '99ms',
+  ip: '::1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-03-08 19:02:50'
+}
+{
+  message: 'OpenAI API key not configured, using fallback responses',
+  level: 'warn',
+  service: 'luxora-backend',
+  timestamp: '2026-03-08 19:03:15'
+}
+{
+  message: '\n==================================================',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-03-08 19:03:15'
+}
+{
+  message: '🚀 Luxora Environmental API Server',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-03-08 19:03:15'
+}
+{
+  message: '📦 Version: 2.0.0',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-03-08 19:03:15'
+}
+{
+  message: '🌍 Environment: development',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-03-08 19:03:15'
+}
+{
+  message: '🔗 Server running on http://localhost:4000',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-03-08 19:03:15'
+}
+{
+  message: '📡 CORS enabled for: http://localhost:3000',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-03-08 19:03:15'
+}
+{
+  message: '==================================================\n',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-03-08 19:03:15'
+}
+{
+  message: 'OpenAI API key not configured, using fallback responses',
+  level: 'warn',
+  service: 'luxora-backend',
+  timestamp: '2026-03-08 19:03:55'
+}
+{
+  message: '\n==================================================',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-03-08 19:03:55'
+}
+{
+  message: '🚀 Luxora Environmental API Server',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-03-08 19:03:55'
+}
+{
+  message: '📦 Version: 2.0.0',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-03-08 19:03:55'
+}
+{
+  message: '🌍 Environment: development',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-03-08 19:03:55'
+}
+{
+  message: '🔗 Server running on http://localhost:4000',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-03-08 19:03:55'
+}
+{
+  message: '📡 CORS enabled for: http://localhost:3000',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-03-08 19:03:55'
+}
+{
+  message: '==================================================\n',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-03-08 19:03:55'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/api/chat',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.26100.7705',
+  timestamp: '2026-03-08 19:04:35',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  userId: 'demo-user',
+  messageLength: 33,
+  level: 'info',
+  message: 'Chat message processed',
+  timestamp: '2026-03-08 19:04:35'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/',
+  statusCode: 200,
+  duration: '5ms',
+  ip: '::1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-03-08 19:04:35'
+}
+{
+  message: 'OpenAI API key not configured, using fallback responses',
+  level: 'warn',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 00:55:20'
+}
+{
+  message: '\n==================================================',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 00:55:20'
+}
+{
+  message: '🚀 Luxora Environmental API Server',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 00:55:20'
+}
+{
+  message: '📦 Version: 2.0.0',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 00:55:20'
+}
+{
+  message: '🌍 Environment: development',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 00:55:20'
+}
+{
+  message: '🔗 Server running on http://localhost:4000',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 00:55:20'
+}
+{
+  message: '📡 CORS enabled for: http://localhost:3000',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 00:55:20'
+}
+{
+  message: '==================================================\n',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 00:55:20'
+}
+{
+  message: 'OpenAI API key not configured, using fallback responses',
+  level: 'warn',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 00:55:39'
+}
+{
+  message: '\n==================================================',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 00:55:39'
+}
+{
+  message: '🚀 Luxora Environmental API Server',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 00:55:39'
+}
+{
+  message: '📦 Version: 2.0.0',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 00:55:39'
+}
+{
+  message: '🌍 Environment: development',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 00:55:39'
+}
+{
+  message: '🔗 Server running on http://localhost:4000',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 00:55:39'
+}
+{
+  message: '📡 CORS enabled for: http://localhost:3000',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 00:55:39'
+}
+{
+  message: '==================================================\n',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 00:55:39'
+}
+{
+  message: 'OpenAI API key not configured, using fallback responses',
+  level: 'warn',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 01:07:23'
+}
+{
+  message: '\n==================================================',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 01:07:23'
+}
+{
+  message: '🚀 Luxora Environmental API Server',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 01:07:23'
+}
+{
+  message: '📦 Version: 2.0.0',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 01:07:23'
+}
+{
+  message: '🌍 Environment: development',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 01:07:23'
+}
+{
+  message: '🔗 Server running on http://localhost:4000',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 01:07:23'
+}
+{
+  message: '📡 CORS enabled for: http://localhost:3000',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 01:07:23'
+}
+{
+  message: '==================================================\n',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 01:07:23'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/api/images',
+  ip: '::1',
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-18 01:12:58',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/api/images',
+  statusCode: 401,
+  duration: '6ms',
+  ip: '::1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-18 01:12:58'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/api/images',
+  ip: '::1',
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-18 01:13:11',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/api/images',
+  statusCode: 401,
+  duration: '0ms',
+  ip: '::1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-18 01:13:11'
+}
+{
+  message: 'OpenAI API key not configured, using fallback responses',
+  level: 'warn',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 01:14:15'
+}
+{
+  message: '\n==================================================',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 01:14:15'
+}
+{
+  message: '🚀 Luxora Environmental API Server',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 01:14:15'
+}
+{
+  message: '📦 Version: 2.0.0',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 01:14:15'
+}
+{
+  message: '🌍 Environment: development',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 01:14:15'
+}
+{
+  message: '🔗 Server running on http://localhost:4000',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 01:14:15'
+}
+{
+  message: '📡 CORS enabled for: http://localhost:3000',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 01:14:15'
+}
+{
+  message: '==================================================\n',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 01:14:15'
+}
+{
+  message: 'SIGTERM signal received: closing HTTP server',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 01:17:30'
+}
+{
+  message: 'OpenAI API key not configured, using fallback responses',
+  level: 'warn',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 01:17:31'
+}
+{
+  message: '\n==================================================',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 01:17:31'
+}
+{
+  message: '🚀 Luxora Environmental API Server',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 01:17:31'
+}
+{
+  message: '📦 Version: 2.0.0',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 01:17:31'
+}
+{
+  message: '🌍 Environment: development',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 01:17:31'
+}
+{
+  message: '🔗 Server running on http://localhost:4000',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 01:17:31'
+}
+{
+  message: '📡 CORS enabled for: http://localhost:3000',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 01:17:31'
+}
+{
+  message: '==================================================\n',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 01:17:31'
+}
+{
+  message: 'OpenAI API key not configured, using fallback responses',
+  level: 'warn',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 01:17:35'
+}
+{
+  message: '\n==================================================',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 01:17:35'
+}
+{
+  message: '🚀 Luxora Environmental API Server',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 01:17:35'
+}
+{
+  message: '📦 Version: 2.0.0',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 01:17:35'
+}
+{
+  message: '🌍 Environment: development',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 01:17:35'
+}
+{
+  message: '🔗 Server running on http://localhost:4000',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 01:17:35'
+}
+{
+  message: '📡 CORS enabled for: http://localhost:3000, http://127.0.0.1:3000',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 01:17:35'
+}
+{
+  message: '==================================================\n',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 01:17:35'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/login',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36',
+  timestamp: '2026-04-18 01:17:35',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo3itbsg00009q58b1q6kw7o',
+  email: 'admin@luxora.com',
+  level: 'info',
+  message: 'User authenticated',
+  timestamp: '2026-04-18 01:17:36'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo3itbsg00009q58b1q6kw7o',
+  email: 'admin@luxora.com',
+  level: 'info',
+  message: 'User logged in successfully',
+  timestamp: '2026-04-18 01:17:36'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/login',
+  statusCode: 200,
+  duration: '95ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-18 01:17:36'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/login',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36',
+  timestamp: '2026-04-18 01:17:36',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo3itbsg00009q58b1q6kw7o',
+  email: 'admin@luxora.com',
+  level: 'info',
+  message: 'User authenticated',
+  timestamp: '2026-04-18 01:17:36'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo3itbsg00009q58b1q6kw7o',
+  email: 'admin@luxora.com',
+  level: 'info',
+  message: 'User logged in successfully',
+  timestamp: '2026-04-18 01:17:36'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/login',
+  statusCode: 200,
+  duration: '76ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-18 01:17:36'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/login',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36',
+  timestamp: '2026-04-18 01:17:54',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo3itbsg00009q58b1q6kw7o',
+  email: 'admin@luxora.com',
+  level: 'info',
+  message: 'User authenticated',
+  timestamp: '2026-04-18 01:17:54'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo3itbsg00009q58b1q6kw7o',
+  email: 'admin@luxora.com',
+  level: 'info',
+  message: 'User logged in successfully',
+  timestamp: '2026-04-18 01:17:54'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/login',
+  statusCode: 200,
+  duration: '74ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-18 01:17:54'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/register',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36',
+  timestamp: '2026-04-18 01:20:18',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo3j6vvp000013k7w356s9b0',
+  email: 'ahmed@gmail.com',
+  level: 'info',
+  message: 'User registered successfully',
+  timestamp: '2026-04-18 01:20:18'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/register',
+  statusCode: 201,
+  duration: '124ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-18 01:20:18'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/login',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36',
+  timestamp: '2026-04-18 01:20:33',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo3j6vvp000013k7w356s9b0',
+  email: 'ahmed@gmail.com',
+  level: 'info',
+  message: 'User authenticated',
+  timestamp: '2026-04-18 01:20:34'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo3j6vvp000013k7w356s9b0',
+  email: 'ahmed@gmail.com',
+  level: 'info',
+  message: 'User logged in successfully',
+  timestamp: '2026-04-18 01:20:34'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/login',
+  statusCode: 200,
+  duration: '85ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-18 01:20:34'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/login',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36',
+  timestamp: '2026-04-18 01:21:10',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo3itbsg00009q58b1q6kw7o',
+  email: 'admin@luxora.com',
+  level: 'info',
+  message: 'User authenticated',
+  timestamp: '2026-04-18 01:21:10'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo3itbsg00009q58b1q6kw7o',
+  email: 'admin@luxora.com',
+  level: 'info',
+  message: 'User logged in successfully',
+  timestamp: '2026-04-18 01:21:10'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/login',
+  statusCode: 200,
+  duration: '92ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-18 01:21:10'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/login',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36',
+  timestamp: '2026-04-18 01:22:38',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo3itbsg00009q58b1q6kw7o',
+  email: 'admin@luxora.com',
+  level: 'info',
+  message: 'User authenticated',
+  timestamp: '2026-04-18 01:22:38'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo3itbsg00009q58b1q6kw7o',
+  email: 'admin@luxora.com',
+  level: 'info',
+  message: 'User logged in successfully',
+  timestamp: '2026-04-18 01:22:38'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/login',
+  statusCode: 200,
+  duration: '74ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-18 01:22:38'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/login',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36',
+  timestamp: '2026-04-18 01:22:40',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  error: 'Validation failed: Invalid email format, Password must be at least 6 characters',
+  stack: 'Error: Validation failed: Invalid email format, Password must be at least 6 characters\n' +
+    '    at <anonymous> (/home/lex_is1/Documents/luxora-/backend/src/controllers/authController.ts:59:13)\n' +
+    '    at <anonymous> (/home/lex_is1/Documents/luxora-/backend/src/middleware/errorHandler.ts:70:19)\n' +
+    '    at Layer.handle [as handle_request] (/home/lex_is1/Documents/luxora-/backend/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at next (/home/lex_is1/Documents/luxora-/backend/node_modules/express/lib/router/route.js:149:13)\n' +
+    '    at Route.dispatch (/home/lex_is1/Documents/luxora-/backend/node_modules/express/lib/router/route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (/home/lex_is1/Documents/luxora-/backend/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at /home/lex_is1/Documents/luxora-/backend/node_modules/express/lib/router/index.js:284:15\n' +
+    '    at Function.process_params (/home/lex_is1/Documents/luxora-/backend/node_modules/express/lib/router/index.js:346:12)\n' +
+    '    at next (/home/lex_is1/Documents/luxora-/backend/node_modules/express/lib/router/index.js:280:10)\n' +
+    '    at Function.handle (/home/lex_is1/Documents/luxora-/backend/node_modules/express/lib/router/index.js:175:3)',
+  url: '/auth/login',
+  method: 'POST',
+  ip: '127.0.0.1',
+  statusCode: 400,
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36',
+  timestamp: '2026-04-18 01:22:40',
+  level: 'error',
+  message: 'Error occurred:'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/login',
+  statusCode: 400,
+  duration: '14ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-18 01:22:40'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/login',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36',
+  timestamp: '2026-04-18 01:22:41',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  error: 'Validation failed: Invalid email format, Password must be at least 6 characters',
+  stack: 'Error: Validation failed: Invalid email format, Password must be at least 6 characters\n' +
+    '    at <anonymous> (/home/lex_is1/Documents/luxora-/backend/src/controllers/authController.ts:59:13)\n' +
+    '    at <anonymous> (/home/lex_is1/Documents/luxora-/backend/src/middleware/errorHandler.ts:70:19)\n' +
+    '    at Layer.handle [as handle_request] (/home/lex_is1/Documents/luxora-/backend/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at next (/home/lex_is1/Documents/luxora-/backend/node_modules/express/lib/router/route.js:149:13)\n' +
+    '    at Route.dispatch (/home/lex_is1/Documents/luxora-/backend/node_modules/express/lib/router/route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (/home/lex_is1/Documents/luxora-/backend/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at /home/lex_is1/Documents/luxora-/backend/node_modules/express/lib/router/index.js:284:15\n' +
+    '    at Function.process_params (/home/lex_is1/Documents/luxora-/backend/node_modules/express/lib/router/index.js:346:12)\n' +
+    '    at next (/home/lex_is1/Documents/luxora-/backend/node_modules/express/lib/router/index.js:280:10)\n' +
+    '    at Function.handle (/home/lex_is1/Documents/luxora-/backend/node_modules/express/lib/router/index.js:175:3)',
+  url: '/auth/login',
+  method: 'POST',
+  ip: '127.0.0.1',
+  statusCode: 400,
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36',
+  timestamp: '2026-04-18 01:22:41',
+  level: 'error',
+  message: 'Error occurred:'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/login',
+  statusCode: 400,
+  duration: '6ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-18 01:22:41'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/login',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36',
+  timestamp: '2026-04-18 01:22:44',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo3itbsg00009q58b1q6kw7o',
+  email: 'admin@luxora.com',
+  level: 'info',
+  message: 'User authenticated',
+  timestamp: '2026-04-18 01:22:44'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo3itbsg00009q58b1q6kw7o',
+  email: 'admin@luxora.com',
+  level: 'info',
+  message: 'User logged in successfully',
+  timestamp: '2026-04-18 01:22:44'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/login',
+  statusCode: 200,
+  duration: '83ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-18 01:22:44'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/login',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36',
+  timestamp: '2026-04-18 01:22:47',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo3itbsg00009q58b1q6kw7o',
+  email: 'admin@luxora.com',
+  level: 'info',
+  message: 'User authenticated',
+  timestamp: '2026-04-18 01:22:47'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo3itbsg00009q58b1q6kw7o',
+  email: 'admin@luxora.com',
+  level: 'info',
+  message: 'User logged in successfully',
+  timestamp: '2026-04-18 01:22:47'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/login',
+  statusCode: 200,
+  duration: '74ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-18 01:22:47'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/login',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36',
+  timestamp: '2026-04-18 01:23:10',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo3itbsg00009q58b1q6kw7o',
+  email: 'admin@luxora.com',
+  level: 'info',
+  message: 'User authenticated',
+  timestamp: '2026-04-18 01:23:10'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo3itbsg00009q58b1q6kw7o',
+  email: 'admin@luxora.com',
+  level: 'info',
+  message: 'User logged in successfully',
+  timestamp: '2026-04-18 01:23:10'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/login',
+  statusCode: 200,
+  duration: '77ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-18 01:23:10'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/login',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36',
+  timestamp: '2026-04-18 01:23:14',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo3itbsg00009q58b1q6kw7o',
+  email: 'admin@luxora.com',
+  level: 'info',
+  message: 'User authenticated',
+  timestamp: '2026-04-18 01:23:14'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo3itbsg00009q58b1q6kw7o',
+  email: 'admin@luxora.com',
+  level: 'info',
+  message: 'User logged in successfully',
+  timestamp: '2026-04-18 01:23:14'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/login',
+  statusCode: 200,
+  duration: '96ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-18 01:23:14'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/login',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36',
+  timestamp: '2026-04-18 01:23:18',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo3itbsg00009q58b1q6kw7o',
+  email: 'admin@luxora.com',
+  level: 'info',
+  message: 'User authenticated',
+  timestamp: '2026-04-18 01:23:18'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo3itbsg00009q58b1q6kw7o',
+  email: 'admin@luxora.com',
+  level: 'info',
+  message: 'User logged in successfully',
+  timestamp: '2026-04-18 01:23:18'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/login',
+  statusCode: 200,
+  duration: '79ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-18 01:23:18'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/login',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36',
+  timestamp: '2026-04-18 01:24:57',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo3itbsg00009q58b1q6kw7o',
+  email: 'admin@luxora.com',
+  level: 'info',
+  message: 'User authenticated',
+  timestamp: '2026-04-18 01:24:57'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo3itbsg00009q58b1q6kw7o',
+  email: 'admin@luxora.com',
+  level: 'info',
+  message: 'User logged in successfully',
+  timestamp: '2026-04-18 01:24:57'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/login',
+  statusCode: 200,
+  duration: '90ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-18 01:24:57'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/login',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36',
+  timestamp: '2026-04-18 01:25:03',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo3itbsg00009q58b1q6kw7o',
+  email: 'admin@luxora.com',
+  level: 'info',
+  message: 'User authenticated',
+  timestamp: '2026-04-18 01:25:03'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo3itbsg00009q58b1q6kw7o',
+  email: 'admin@luxora.com',
+  level: 'info',
+  message: 'User logged in successfully',
+  timestamp: '2026-04-18 01:25:03'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/login',
+  statusCode: 200,
+  duration: '70ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-18 01:25:03'
+}
+{
+  message: 'SIGTERM signal received: closing HTTP server',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 06:12:43'
+}
+{
+  message: 'OpenAI API key not configured, using fallback responses',
+  level: 'warn',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:01'
+}
+{
+  message: '\n==================================================',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:01'
+}
+{
+  message: '🚀 Luxora Environmental API Server',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:01'
+}
+{
+  message: '📦 Version: 2.0.0',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:01'
+}
+{
+  message: '🌍 Environment: development',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:01'
+}
+{
+  message: '🔗 Server running on http://localhost:4000',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:01'
+}
+{
+  message: '📡 CORS enabled for: http://localhost:3000, http://127.0.0.1:3000',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:01'
+}
+{
+  message: '==================================================\n',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:01'
+}
+{
+  message: 'SIGINT signal received: closing HTTP server',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:07'
+}
+{
+  message: 'OpenAI API key not configured, using fallback responses',
+  level: 'warn',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:10'
+}
+{
+  message: '\n==================================================',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:10'
+}
+{
+  message: '🚀 Luxora Environmental API Server',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:10'
+}
+{
+  message: '📦 Version: 2.0.0',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:10'
+}
+{
+  message: '🌍 Environment: development',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:10'
+}
+{
+  message: '🔗 Server running on http://localhost:4000',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:10'
+}
+{
+  message: '📡 CORS enabled for: http://localhost:3000, http://127.0.0.1:3000',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:10'
+}
+{
+  message: '==================================================\n',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:10'
+}
+{
+  message: 'SIGINT signal received: closing HTTP server',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:20'
+}
+{
+  message: 'OpenAI API key not configured, using fallback responses',
+  level: 'warn',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:23'
+}
+{
+  message: '\n==================================================',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:23'
+}
+{
+  message: '🚀 Luxora Environmental API Server',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:23'
+}
+{
+  message: '📦 Version: 2.0.0',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:23'
+}
+{
+  message: '🌍 Environment: development',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:23'
+}
+{
+  message: '🔗 Server running on http://localhost:4000',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:23'
+}
+{
+  message: '📡 CORS enabled for: http://localhost:3000, http://127.0.0.1:3000',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:23'
+}
+{
+  message: '==================================================\n',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:23'
+}
+{
+  message: 'SIGINT signal received: closing HTTP server',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:29'
+}
+{
+  message: 'OpenAI API key not configured, using fallback responses',
+  level: 'warn',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:32'
+}
+{
+  message: '\n==================================================',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:32'
+}
+{
+  message: '🚀 Luxora Environmental API Server',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:32'
+}
+{
+  message: '📦 Version: 2.0.0',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:32'
+}
+{
+  message: '🌍 Environment: development',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:32'
+}
+{
+  message: '🔗 Server running on http://localhost:4000',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:32'
+}
+{
+  message: '📡 CORS enabled for: http://localhost:3000, http://127.0.0.1:3000',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:32'
+}
+{
+  message: '==================================================\n',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:32'
+}
+{
+  message: 'SIGINT signal received: closing HTTP server',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:43'
+}
+{
+  message: 'OpenAI API key not configured, using fallback responses',
+  level: 'warn',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:45'
+}
+{
+  message: '\n==================================================',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:45'
+}
+{
+  message: '🚀 Luxora Environmental API Server',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:45'
+}
+{
+  message: '📦 Version: 2.0.0',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:45'
+}
+{
+  message: '🌍 Environment: development',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:45'
+}
+{
+  message: '🔗 Server running on http://localhost:4000',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:45'
+}
+{
+  message: '📡 CORS enabled for: http://localhost:3000, http://127.0.0.1:3000',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:45'
+}
+{
+  message: '==================================================\n',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:45'
+}
+{
+  message: 'SIGINT signal received: closing HTTP server',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:53'
+}
+{
+  message: 'OpenAI API key not configured, using fallback responses',
+  level: 'warn',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:55'
+}
+{
+  message: '\n==================================================',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:55'
+}
+{
+  message: '🚀 Luxora Environmental API Server',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:55'
+}
+{
+  message: '📦 Version: 2.0.0',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:55'
+}
+{
+  message: '🌍 Environment: development',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:55'
+}
+{
+  message: '🔗 Server running on http://localhost:4000',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:55'
+}
+{
+  message: '📡 CORS enabled for: http://localhost:3000, http://127.0.0.1:3000',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:55'
+}
+{
+  message: '==================================================\n',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:52:55'
+}
+{
+  message: 'SIGINT signal received: closing HTTP server',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:53:02'
+}
+{
+  message: 'OpenAI API key not configured, using fallback responses',
+  level: 'warn',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:53:05'
+}
+{
+  message: '\n==================================================',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:53:05'
+}
+{
+  message: '🚀 Luxora Environmental API Server',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:53:05'
+}
+{
+  message: '📦 Version: 2.0.0',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:53:05'
+}
+{
+  message: '🌍 Environment: development',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:53:05'
+}
+{
+  message: '🔗 Server running on http://localhost:4000',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:53:05'
+}
+{
+  message: '📡 CORS enabled for: http://localhost:3000, http://127.0.0.1:3000',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:53:05'
+}
+{
+  message: '==================================================\n',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:53:05'
+}
+{
+  message: 'SIGINT signal received: closing HTTP server',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:53:11'
+}
+{
+  message: 'OpenAI API key not configured, using fallback responses',
+  level: 'warn',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:57:56'
+}
+{
+  message: '\n==================================================',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:57:56'
+}
+{
+  message: '🚀 Luxora Environmental API Server',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:57:56'
+}
+{
+  message: '📦 Version: 2.0.0',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:57:56'
+}
+{
+  message: '🌍 Environment: development',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:57:56'
+}
+{
+  message: '🔗 Server running on http://localhost:4000',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:57:56'
+}
+{
+  message: '📡 CORS enabled for: http://localhost:3000, http://127.0.0.1:3000',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:57:56'
+}
+{
+  message: '==================================================\n',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 16:57:56'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/health',
+  ip: '127.0.0.1',
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-18 16:58:31',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/health',
+  statusCode: 200,
+  duration: '3ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-18 16:58:31'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/health',
+  ip: '127.0.0.1',
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-18 16:59:17',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/health',
+  statusCode: 200,
+  duration: '6ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-18 16:59:17'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/login',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36',
+  timestamp: '2026-04-18 16:59:17',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo3itbsg00009q58b1q6kw7o',
+  email: 'admin@luxora.com',
+  level: 'info',
+  message: 'User authenticated',
+  timestamp: '2026-04-18 16:59:18'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo3itbsg00009q58b1q6kw7o',
+  email: 'admin@luxora.com',
+  level: 'info',
+  message: 'User logged in successfully',
+  timestamp: '2026-04-18 16:59:18'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/login',
+  statusCode: 200,
+  duration: '145ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-18 16:59:18'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/login',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36',
+  timestamp: '2026-04-18 16:59:30',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo3itbsg00009q58b1q6kw7o',
+  email: 'admin@luxora.com',
+  level: 'info',
+  message: 'User authenticated',
+  timestamp: '2026-04-18 16:59:30'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo3itbsg00009q58b1q6kw7o',
+  email: 'admin@luxora.com',
+  level: 'info',
+  message: 'User logged in successfully',
+  timestamp: '2026-04-18 16:59:30'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/login',
+  statusCode: 200,
+  duration: '99ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-18 16:59:30'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/register',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36',
+  timestamp: '2026-04-18 16:59:55',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo4gr8t7000013f4vgunhhjk',
+  email: 'sd@s.com',
+  level: 'info',
+  message: 'User registered successfully',
+  timestamp: '2026-04-18 16:59:55'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/register',
+  statusCode: 201,
+  duration: '124ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-18 16:59:55'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/login',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36',
+  timestamp: '2026-04-18 17:00:17',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo3itbsg00009q58b1q6kw7o',
+  email: 'admin@luxora.com',
+  level: 'info',
+  message: 'User authenticated',
+  timestamp: '2026-04-18 17:00:18'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo3itbsg00009q58b1q6kw7o',
+  email: 'admin@luxora.com',
+  level: 'info',
+  message: 'User logged in successfully',
+  timestamp: '2026-04-18 17:00:18'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/login',
+  statusCode: 200,
+  duration: '133ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-18 17:00:18'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/login',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36',
+  timestamp: '2026-04-18 17:01:06',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo3itbsg00009q58b1q6kw7o',
+  email: 'admin@luxora.com',
+  level: 'info',
+  message: 'User authenticated',
+  timestamp: '2026-04-18 17:01:06'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo3itbsg00009q58b1q6kw7o',
+  email: 'admin@luxora.com',
+  level: 'info',
+  message: 'User logged in successfully',
+  timestamp: '2026-04-18 17:01:06'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/login',
+  statusCode: 200,
+  duration: '152ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-18 17:01:06'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/login',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36',
+  timestamp: '2026-04-18 17:01:19',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo3itbsg00009q58b1q6kw7o',
+  email: 'admin@luxora.com',
+  level: 'info',
+  message: 'User authenticated',
+  timestamp: '2026-04-18 17:01:20'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo3itbsg00009q58b1q6kw7o',
+  email: 'admin@luxora.com',
+  level: 'info',
+  message: 'User logged in successfully',
+  timestamp: '2026-04-18 17:01:20'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/login',
+  statusCode: 200,
+  duration: '155ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-18 17:01:20'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/login',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36',
+  timestamp: '2026-04-18 17:02:14',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo3itbsg00009q58b1q6kw7o',
+  email: 'admin@luxora.com',
+  level: 'info',
+  message: 'User authenticated',
+  timestamp: '2026-04-18 17:02:14'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo3itbsg00009q58b1q6kw7o',
+  email: 'admin@luxora.com',
+  level: 'info',
+  message: 'User logged in successfully',
+  timestamp: '2026-04-18 17:02:14'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/login',
+  statusCode: 200,
+  duration: '148ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-18 17:02:14'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/login',
+  ip: '127.0.0.1',
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-18 17:02:28',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  error: 'Invalid credentials',
+  stack: 'Error: Invalid credentials\n' +
+    '    at AuthService.login (/home/lex_is1/Documents/luxora-/backend/src/services/authService.ts:53:13)\n' +
+    '    at async <anonymous> (/home/lex_is1/Documents/luxora-/backend/src/controllers/authController.ts:62:29)',
+  url: '/auth/login',
+  method: 'POST',
+  ip: '127.0.0.1',
+  statusCode: 401,
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-18 17:02:28',
+  level: 'error',
+  message: 'Error occurred:'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/login',
+  statusCode: 401,
+  duration: '18ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-18 17:02:28'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/login',
+  ip: '127.0.0.1',
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-18 17:02:36',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  error: 'Invalid credentials',
+  stack: 'Error: Invalid credentials\n' +
+    '    at AuthService.login (/home/lex_is1/Documents/luxora-/backend/src/services/authService.ts:53:13)\n' +
+    '    at async <anonymous> (/home/lex_is1/Documents/luxora-/backend/src/controllers/authController.ts:62:29)',
+  url: '/auth/login',
+  method: 'POST',
+  ip: '127.0.0.1',
+  statusCode: 401,
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-18 17:02:36',
+  level: 'error',
+  message: 'Error occurred:'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/login',
+  statusCode: 401,
+  duration: '25ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-18 17:02:36'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/health',
+  ip: '127.0.0.1',
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-18 17:02:51',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/health',
+  statusCode: 200,
+  duration: '11ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-18 17:02:51'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/register',
+  ip: '127.0.0.1',
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-18 17:03:37',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo4gvzn2000113f464vtqw1u',
+  email: 'test@example.com',
+  level: 'info',
+  message: 'User registered successfully',
+  timestamp: '2026-04-18 17:03:37'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/register',
+  statusCode: 201,
+  duration: '141ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-18 17:03:37'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/register',
+  ip: '127.0.0.1',
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-18 17:03:44',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  error: 'Email already exists',
+  stack: 'Error: Email already exists\n' +
+    '    at AuthService.register (/home/lex_is1/Documents/luxora-/backend/src/services/authService.ts:26:13)\n' +
+    '    at async <anonymous> (/home/lex_is1/Documents/luxora-/backend/src/controllers/authController.ts:33:29)',
+  url: '/auth/register',
+  method: 'POST',
+  ip: '127.0.0.1',
+  statusCode: 409,
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-18 17:03:44',
+  level: 'error',
+  message: 'Error occurred:'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/register',
+  statusCode: 409,
+  duration: '6ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-18 17:03:44'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/health',
+  ip: '127.0.0.1',
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-18 17:03:51',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/health',
+  statusCode: 200,
+  duration: '0ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-18 17:03:51'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/health',
+  ip: '127.0.0.1',
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-18 17:03:59',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/health',
+  statusCode: 200,
+  duration: '5ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-18 17:03:59'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/login',
+  ip: '127.0.0.1',
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-18 17:04:09',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo4gvzn2000113f464vtqw1u',
+  email: 'test@example.com',
+  level: 'info',
+  message: 'User authenticated',
+  timestamp: '2026-04-18 17:04:09'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo4gvzn2000113f464vtqw1u',
+  email: 'test@example.com',
+  level: 'info',
+  message: 'User logged in successfully',
+  timestamp: '2026-04-18 17:04:09'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/login',
+  statusCode: 200,
+  duration: '136ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-18 17:04:09'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/login',
+  ip: '127.0.0.1',
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-18 17:04:18',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo4gvzn2000113f464vtqw1u',
+  email: 'test@example.com',
+  level: 'info',
+  message: 'User authenticated',
+  timestamp: '2026-04-18 17:04:18'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo4gvzn2000113f464vtqw1u',
+  email: 'test@example.com',
+  level: 'info',
+  message: 'User logged in successfully',
+  timestamp: '2026-04-18 17:04:18'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/login',
+  statusCode: 200,
+  duration: '120ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-18 17:04:18'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/',
+  ip: '127.0.0.1',
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-18 17:04:26',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/',
+  statusCode: 200,
+  duration: '17ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-18 17:04:26'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/register',
+  ip: '127.0.0.1',
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-18 17:05:30',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo4gyf1h000213f4faajn4pz',
+  email: 'test@test.com',
+  level: 'info',
+  message: 'User registered successfully',
+  timestamp: '2026-04-18 17:05:30'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/register',
+  statusCode: 201,
+  duration: '115ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-18 17:05:30'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/register',
+  ip: '127.0.0.1',
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-18 17:05:35',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  error: 'Email already exists',
+  stack: 'Error: Email already exists\n' +
+    '    at AuthService.register (/home/lex_is1/Documents/luxora-/backend/src/services/authService.ts:26:13)\n' +
+    '    at async <anonymous> (/home/lex_is1/Documents/luxora-/backend/src/controllers/authController.ts:33:29)',
+  url: '/auth/register',
+  method: 'POST',
+  ip: '127.0.0.1',
+  statusCode: 409,
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-18 17:05:35',
+  level: 'error',
+  message: 'Error occurred:'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/register',
+  statusCode: 409,
+  duration: '6ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-18 17:05:35'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/health',
+  ip: '127.0.0.1',
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-18 17:05:45',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/health',
+  statusCode: 200,
+  duration: '1ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-18 17:05:45'
+}
+{
+  message: 'OpenAI API key not configured, using fallback responses',
+  level: 'warn',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 23:52:49'
+}
+{
+  message: '\n==================================================',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 23:52:49'
+}
+{
+  message: '🚀 Luxora Environmental API Server',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 23:52:49'
+}
+{
+  message: '📦 Version: 2.0.0',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 23:52:49'
+}
+{
+  message: '🌍 Environment: development',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 23:52:49'
+}
+{
+  message: '🔗 Server running on http://localhost:4000',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 23:52:49'
+}
+{
+  message: '📡 CORS enabled for: http://localhost:3000, http://127.0.0.1:3000',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 23:52:49'
+}
+{
+  message: '==================================================\n',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-18 23:52:49'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/register',
+  ip: '127.0.0.1',
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-18 23:53:01',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  error: 'Email already exists',
+  stack: 'Error: Email already exists\n' +
+    '    at AuthService.register (/home/lex_is1/Documents/luxora-/backend/src/services/authService.ts:26:13)\n' +
+    '    at async <anonymous> (/home/lex_is1/Documents/luxora-/backend/src/controllers/authController.ts:33:29)',
+  url: '/auth/register',
+  method: 'POST',
+  ip: '127.0.0.1',
+  statusCode: 409,
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-18 23:53:01',
+  level: 'error',
+  message: 'Error occurred:'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/register',
+  statusCode: 409,
+  duration: '38ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-18 23:53:01'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/register',
+  ip: '127.0.0.1',
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-18 23:53:10',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  error: 'Email already exists',
+  stack: 'Error: Email already exists\n' +
+    '    at AuthService.register (/home/lex_is1/Documents/luxora-/backend/src/services/authService.ts:26:13)\n' +
+    '    at async <anonymous> (/home/lex_is1/Documents/luxora-/backend/src/controllers/authController.ts:33:29)',
+  url: '/auth/register',
+  method: 'POST',
+  ip: '127.0.0.1',
+  statusCode: 409,
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-18 23:53:10',
+  level: 'error',
+  message: 'Error occurred:'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/register',
+  statusCode: 409,
+  duration: '9ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-18 23:53:10'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/health',
+  ip: '127.0.0.1',
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-18 23:53:19',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/health',
+  statusCode: 200,
+  duration: '2ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-18 23:53:19'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/health',
+  ip: '127.0.0.1',
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-18 23:53:29',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/health',
+  statusCode: 200,
+  duration: '1ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-18 23:53:29'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/register',
+  ip: '127.0.0.1',
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-18 23:54:37',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  error: 'Email already exists',
+  stack: 'Error: Email already exists\n' +
+    '    at AuthService.register (/home/lex_is1/Documents/luxora-/backend/src/services/authService.ts:26:13)\n' +
+    '    at async <anonymous> (/home/lex_is1/Documents/luxora-/backend/src/controllers/authController.ts:33:29)',
+  url: '/auth/register',
+  method: 'POST',
+  ip: '127.0.0.1',
+  statusCode: 409,
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-18 23:54:37',
+  level: 'error',
+  message: 'Error occurred:'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/register',
+  statusCode: 409,
+  duration: '5ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-18 23:54:37'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/health',
+  ip: '127.0.0.1',
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-18 23:54:48',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/health',
+  statusCode: 200,
+  duration: '0ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-18 23:54:48'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/',
+  ip: '127.0.0.1',
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-18 23:54:56',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/',
+  statusCode: 200,
+  duration: '2ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-18 23:54:56'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/',
+  ip: '127.0.0.1',
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-18 23:55:07',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/',
+  statusCode: 200,
+  duration: '1ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-18 23:55:07'
+}
+{
+  message: 'OpenAI API key not configured, using fallback responses',
+  level: 'warn',
+  service: 'luxora-backend',
+  timestamp: '2026-04-19 00:15:58'
+}
+{
+  message: '\n==================================================',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-19 00:15:58'
+}
+{
+  message: '🚀 Luxora Environmental API Server',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-19 00:15:58'
+}
+{
+  message: '📦 Version: 2.0.0',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-19 00:15:58'
+}
+{
+  message: '🌍 Environment: development',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-19 00:15:58'
+}
+{
+  message: '🔗 Server running on http://localhost:4000',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-19 00:15:58'
+}
+{
+  message: '📡 CORS enabled for: http://localhost:3000, http://127.0.0.1:3000',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-19 00:15:58'
+}
+{
+  message: '==================================================\n',
+  level: 'info',
+  service: 'luxora-backend',
+  timestamp: '2026-04-19 00:15:58'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/register',
+  ip: '127.0.0.1',
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-19 00:16:12',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  error: 'Email already exists',
+  stack: 'Error: Email already exists\n' +
+    '    at AuthService.register (/home/lex_is1/Documents/luxora-/backend/src/services/authService.ts:26:13)\n' +
+    '    at async <anonymous> (/home/lex_is1/Documents/luxora-/backend/src/controllers/authController.ts:33:29)',
+  url: '/auth/register',
+  method: 'POST',
+  ip: '127.0.0.1',
+  statusCode: 409,
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-19 00:16:12',
+  level: 'error',
+  message: 'Error occurred:'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/register',
+  statusCode: 409,
+  duration: '76ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-19 00:16:12'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/login',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36',
+  timestamp: '2026-04-19 00:17:49',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo3itbsg00009q58b1q6kw7o',
+  email: 'admin@luxora.com',
+  level: 'info',
+  message: 'User authenticated',
+  timestamp: '2026-04-19 00:17:49'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo3itbsg00009q58b1q6kw7o',
+  email: 'admin@luxora.com',
+  level: 'info',
+  message: 'User logged in successfully',
+  timestamp: '2026-04-19 00:17:49'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/login',
+  statusCode: 200,
+  duration: '106ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-19 00:17:49'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/login',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36',
+  timestamp: '2026-04-19 00:17:55',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo3itbsg00009q58b1q6kw7o',
+  email: 'admin@luxora.com',
+  level: 'info',
+  message: 'User authenticated',
+  timestamp: '2026-04-19 00:17:55'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo3itbsg00009q58b1q6kw7o',
+  email: 'admin@luxora.com',
+  level: 'info',
+  message: 'User logged in successfully',
+  timestamp: '2026-04-19 00:17:55'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/login',
+  statusCode: 200,
+  duration: '63ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-19 00:17:55'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/login',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36',
+  timestamp: '2026-04-19 00:18:05',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo3itbsg00009q58b1q6kw7o',
+  email: 'admin@luxora.com',
+  level: 'info',
+  message: 'User authenticated',
+  timestamp: '2026-04-19 00:18:05'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo3itbsg00009q58b1q6kw7o',
+  email: 'admin@luxora.com',
+  level: 'info',
+  message: 'User logged in successfully',
+  timestamp: '2026-04-19 00:18:05'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/login',
+  statusCode: 200,
+  duration: '114ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-19 00:18:05'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/login',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36',
+  timestamp: '2026-04-19 00:18:08',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo4gr8t7000013f4vgunhhjk',
+  email: 'sd@s.com',
+  level: 'info',
+  message: 'User authenticated',
+  timestamp: '2026-04-19 00:18:08'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo4gr8t7000013f4vgunhhjk',
+  email: 'sd@s.com',
+  level: 'info',
+  message: 'User logged in successfully',
+  timestamp: '2026-04-19 00:18:08'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/login',
+  statusCode: 200,
+  duration: '66ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-19 00:18:08'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/register',
+  ip: '127.0.0.1',
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-19 00:18:18',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  error: 'Email already exists',
+  stack: 'Error: Email already exists\n' +
+    '    at AuthService.register (/home/lex_is1/Documents/luxora-/backend/src/services/authService.ts:26:13)\n' +
+    '    at async <anonymous> (/home/lex_is1/Documents/luxora-/backend/src/controllers/authController.ts:33:29)',
+  url: '/auth/register',
+  method: 'POST',
+  ip: '127.0.0.1',
+  statusCode: 409,
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-19 00:18:18',
+  level: 'error',
+  message: 'Error occurred:'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/register',
+  statusCode: 409,
+  duration: '45ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-19 00:18:18'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64; rv:148.0) Gecko/20100101 Firefox/148.0',
+  timestamp: '2026-04-19 00:18:19',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/',
+  statusCode: 200,
+  duration: '1ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-19 00:18:19'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/favicon.ico',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64; rv:148.0) Gecko/20100101 Firefox/148.0',
+  timestamp: '2026-04-19 00:18:19',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/favicon.ico',
+  statusCode: 404,
+  duration: '1ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-19 00:18:19'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/register',
+  ip: '127.0.0.1',
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-19 00:18:30',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  error: 'Email already exists',
+  stack: 'Error: Email already exists\n' +
+    '    at AuthService.register (/home/lex_is1/Documents/luxora-/backend/src/services/authService.ts:26:13)\n' +
+    '    at async <anonymous> (/home/lex_is1/Documents/luxora-/backend/src/controllers/authController.ts:33:29)',
+  url: '/auth/register',
+  method: 'POST',
+  ip: '127.0.0.1',
+  statusCode: 409,
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-19 00:18:30',
+  level: 'error',
+  message: 'Error occurred:'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/register',
+  statusCode: 409,
+  duration: '41ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-19 00:18:30'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/health',
+  ip: '127.0.0.1',
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-19 00:49:04',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/health',
+  statusCode: 200,
+  duration: '6ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-19 00:49:04'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/login',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64; rv:148.0) Gecko/20100101 Firefox/148.0',
+  timestamp: '2026-04-19 00:51:09',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo3itbsg00009q58b1q6kw7o',
+  email: 'admin@luxora.com',
+  level: 'info',
+  message: 'User authenticated',
+  timestamp: '2026-04-19 00:51:09'
+}
+{
+  service: 'luxora-backend',
+  userId: 'cmo3itbsg00009q58b1q6kw7o',
+  email: 'admin@luxora.com',
+  level: 'info',
+  message: 'User logged in successfully',
+  timestamp: '2026-04-19 00:51:09'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/login',
+  statusCode: 200,
+  duration: '179ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-19 00:51:09'
+}
+{
+  service: 'luxora-backend',
+  method: 'PUT',
+  url: '/me',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64; rv:148.0) Gecko/20100101 Firefox/148.0',
+  timestamp: '2026-04-19 00:51:24',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  method: 'PUT',
+  url: '/me',
+  statusCode: 404,
+  duration: '1ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-19 00:51:24'
+}
+{
+  service: 'luxora-backend',
+  method: 'PUT',
+  url: '/me',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64; rv:148.0) Gecko/20100101 Firefox/148.0',
+  timestamp: '2026-04-19 00:51:25',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  method: 'PUT',
+  url: '/me',
+  statusCode: 404,
+  duration: '0ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-19 00:51:25'
+}
+{
+  service: 'luxora-backend',
+  method: 'PUT',
+  url: '/me',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64; rv:148.0) Gecko/20100101 Firefox/148.0',
+  timestamp: '2026-04-19 00:51:26',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  method: 'PUT',
+  url: '/me',
+  statusCode: 404,
+  duration: '1ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-19 00:51:26'
+}
+{
+  service: 'luxora-backend',
+  method: 'PUT',
+  url: '/me',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64; rv:148.0) Gecko/20100101 Firefox/148.0',
+  timestamp: '2026-04-19 00:51:26',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  method: 'PUT',
+  url: '/me',
+  statusCode: 404,
+  duration: '1ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-19 00:51:26'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/api/images',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64; rv:148.0) Gecko/20100101 Firefox/148.0',
+  timestamp: '2026-04-19 00:51:31',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/api/images',
+  statusCode: 200,
+  duration: '8ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-19 00:51:31'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/api/images',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64; rv:148.0) Gecko/20100101 Firefox/148.0',
+  timestamp: '2026-04-19 00:51:31',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/api/images',
+  statusCode: 200,
+  duration: '2ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-19 00:51:31'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/api/images',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64; rv:148.0) Gecko/20100101 Firefox/148.0',
+  timestamp: '2026-04-19 00:53:33',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/api/images',
+  statusCode: 200,
+  duration: '18ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-19 00:53:33'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/api/images',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64; rv:148.0) Gecko/20100101 Firefox/148.0',
+  timestamp: '2026-04-19 00:53:33',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/api/images',
+  statusCode: 200,
+  duration: '3ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-19 00:53:33'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/register',
+  ip: '127.0.0.1',
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-19 00:55:40',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  error: 'Email already exists',
+  stack: 'Error: Email already exists\n' +
+    '    at AuthService.register (/home/lex_is1/Documents/luxora-/backend/src/services/authService.ts:26:13)\n' +
+    '    at async <anonymous> (/home/lex_is1/Documents/luxora-/backend/src/controllers/authController.ts:33:29)',
+  url: '/auth/register',
+  method: 'POST',
+  ip: '127.0.0.1',
+  statusCode: 409,
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-19 00:55:40',
+  level: 'error',
+  message: 'Error occurred:'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/register',
+  statusCode: 409,
+  duration: '32ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-19 00:55:40'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/register',
+  ip: '127.0.0.1',
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-19 00:55:47',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  error: 'Email already exists',
+  stack: 'Error: Email already exists\n' +
+    '    at AuthService.register (/home/lex_is1/Documents/luxora-/backend/src/services/authService.ts:26:13)\n' +
+    '    at async <anonymous> (/home/lex_is1/Documents/luxora-/backend/src/controllers/authController.ts:33:29)',
+  url: '/auth/register',
+  method: 'POST',
+  ip: '127.0.0.1',
+  statusCode: 409,
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-19 00:55:47',
+  level: 'error',
+  message: 'Error occurred:'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/register',
+  statusCode: 409,
+  duration: '22ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-19 00:55:47'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/register',
+  ip: '127.0.0.1',
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-19 00:56:13',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  error: 'Email already exists',
+  stack: 'Error: Email already exists\n' +
+    '    at AuthService.register (/home/lex_is1/Documents/luxora-/backend/src/services/authService.ts:26:13)\n' +
+    '    at async <anonymous> (/home/lex_is1/Documents/luxora-/backend/src/controllers/authController.ts:33:29)',
+  url: '/auth/register',
+  method: 'POST',
+  ip: '127.0.0.1',
+  statusCode: 409,
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-19 00:56:13',
+  level: 'error',
+  message: 'Error occurred:'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/register',
+  statusCode: 409,
+  duration: '32ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-19 00:56:13'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/register',
+  ip: '127.0.0.1',
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-19 00:56:20',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  error: 'Email already exists',
+  stack: 'Error: Email already exists\n' +
+    '    at AuthService.register (/home/lex_is1/Documents/luxora-/backend/src/services/authService.ts:26:13)\n' +
+    '    at async <anonymous> (/home/lex_is1/Documents/luxora-/backend/src/controllers/authController.ts:33:29)',
+  url: '/auth/register',
+  method: 'POST',
+  ip: '127.0.0.1',
+  statusCode: 409,
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-19 00:56:20',
+  level: 'error',
+  message: 'Error occurred:'
+}
+{
+  service: 'luxora-backend',
+  method: 'POST',
+  url: '/auth/register',
+  statusCode: 409,
+  duration: '32ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-19 00:56:20'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/health',
+  ip: '127.0.0.1',
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-19 01:19:07',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/health',
+  statusCode: 200,
+  duration: '4ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-19 01:19:07'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/api/images',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64; rv:148.0) Gecko/20100101 Firefox/148.0',
+  timestamp: '2026-04-19 01:20:37',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/api/images',
+  statusCode: 200,
+  duration: '8ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-19 01:20:37'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/api/images',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64; rv:148.0) Gecko/20100101 Firefox/148.0',
+  timestamp: '2026-04-19 01:20:37',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/api/images',
+  statusCode: 200,
+  duration: '1ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-19 01:20:37'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/api/images/photo_20260419_010436.jpg',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64; rv:148.0) Gecko/20100101 Firefox/148.0',
+  timestamp: '2026-04-19 01:20:37',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/api/images/photo_20260419_010436.jpg',
+  statusCode: 401,
+  duration: '1ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-19 01:20:37'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/api/images',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64; rv:148.0) Gecko/20100101 Firefox/148.0',
+  timestamp: '2026-04-19 01:20:40',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/api/images',
+  statusCode: 200,
+  duration: '2ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-19 01:20:40'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/api/images/photo_20260419_010436.jpg',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64; rv:148.0) Gecko/20100101 Firefox/148.0',
+  timestamp: '2026-04-19 01:20:40',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/api/images/photo_20260419_010436.jpg',
+  statusCode: 401,
+  duration: '1ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-19 01:20:40'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/api/images',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64; rv:148.0) Gecko/20100101 Firefox/148.0',
+  timestamp: '2026-04-19 01:26:11',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/api/images',
+  statusCode: 200,
+  duration: '52ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-19 01:26:11'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/api/images',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64; rv:148.0) Gecko/20100101 Firefox/148.0',
+  timestamp: '2026-04-19 01:26:12',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/api/images',
+  statusCode: 200,
+  duration: '3ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-19 01:26:12'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/api/images/photo_20260419_010436.jpg',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64; rv:148.0) Gecko/20100101 Firefox/148.0',
+  timestamp: '2026-04-19 01:26:12',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/api/images/photo_20260419_010436.jpg',
+  statusCode: 401,
+  duration: '1ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-19 01:26:12'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/api/images',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64; rv:148.0) Gecko/20100101 Firefox/148.0',
+  timestamp: '2026-04-19 01:31:51',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/api/images',
+  statusCode: 200,
+  duration: '12ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-19 01:31:51'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/api/images',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64; rv:148.0) Gecko/20100101 Firefox/148.0',
+  timestamp: '2026-04-19 01:31:51',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/api/images',
+  statusCode: 200,
+  duration: '2ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-19 01:31:51'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/api/images/photo_20260419_010436.jpg',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64; rv:148.0) Gecko/20100101 Firefox/148.0',
+  timestamp: '2026-04-19 01:31:51',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/api/images/photo_20260419_010436.jpg',
+  statusCode: 401,
+  duration: '1ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-19 01:31:51'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/api/images',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64; rv:148.0) Gecko/20100101 Firefox/148.0',
+  timestamp: '2026-04-19 01:35:00',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/api/images',
+  statusCode: 200,
+  duration: '12ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-19 01:35:00'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/api/images',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64; rv:148.0) Gecko/20100101 Firefox/148.0',
+  timestamp: '2026-04-19 01:35:00',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/api/images',
+  statusCode: 200,
+  duration: '1ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-19 01:35:00'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/api/images/photo_20260419_010436.jpg',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64; rv:148.0) Gecko/20100101 Firefox/148.0',
+  timestamp: '2026-04-19 01:35:00',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/api/images/photo_20260419_010436.jpg',
+  statusCode: 401,
+  duration: '1ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-19 01:35:00'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/api/images',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64; rv:148.0) Gecko/20100101 Firefox/148.0',
+  timestamp: '2026-04-19 01:39:06',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/api/images',
+  statusCode: 200,
+  duration: '8ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-19 01:39:06'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/api/images',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64; rv:148.0) Gecko/20100101 Firefox/148.0',
+  timestamp: '2026-04-19 01:39:06',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/api/images',
+  statusCode: 200,
+  duration: '2ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-19 01:39:06'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/api/images/photo_20260419_010436.jpg',
+  ip: '127.0.0.1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64; rv:148.0) Gecko/20100101 Firefox/148.0',
+  timestamp: '2026-04-19 01:39:06',
+  level: 'info',
+  message: 'Incoming request'
+}
+{
+  service: 'luxora-backend',
+  method: 'GET',
+  url: '/api/images/photo_20260419_010436.jpg',
+  statusCode: 401,
+  duration: '0ms',
+  ip: '127.0.0.1',
+  level: 'info',
+  message: 'Request completed',
+  timestamp: '2026-04-19 01:39:06'
+}

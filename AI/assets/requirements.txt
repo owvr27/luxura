@@ -1,0 +1,31 @@
+# Python Libraries 
+tensorflow
+numpy
+matplotlib
+pandas
+tabulate
+Pillow
+
+=== HOW TO TEST MODEL ===
+
+ REQUIRED FILES:
+1. best_model.h5    ← Trained model
+2. test.py          ← Testing script
+3. test_images/     ← Folder with your test images
+
+ QUICK RUN:
+python test.py
+
+ RESULTS WILL BE SAVED IN:
+- predicted_images/    ← Visualized predictions
+- test_results/        ← CSV report and summary
+
+ IMAGE FORMAT:
+- Put your test images in 'test_images' folder
+- Supported: .jpg, .png, .jpeg
+
+ DONE!
+After running, check:
+- predicted_images/ for labeled images
+- test_results/predictions_details.csv for data
+- test_results/summary_report.txt for stats

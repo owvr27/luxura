@@ -1,0 +1,35 @@
+{
+  "image_path": "photos/photo_20260419_020100.jpg",
+  "classification": {
+    "category": "plastic",
+    "confidence": 0.85,
+    "description": "Plastic bottles and containers",
+    "points": 25,
+    "recyclable": true
+  },
+  "all_classifications": [
+    {
+      "category": "plastic",
+      "confidence": 0.85,
+      "description": "Plastic bottles and containers",
+      "points": 25,
+      "recyclable": true
+    },
+    {
+      "category": "paper",
+      "confidence": 0.12,
+      "description": "Paper and cardboard",
+      "points": 15,
+      "recyclable": true
+    },
+    {
+      "category": "metal",
+      "confidence": 0.03,
+      "description": "Metal cans and containers",
+      "points": 20,
+      "recyclable": true
+    }
+  ],
+  "timestamp": "2026-04-19T02:01:00.694719",
+  "success": true
+}

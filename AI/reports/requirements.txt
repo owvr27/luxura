@@ -1,0 +1,44 @@
+# Python Libraries for Waste Classification Project
+tensorflow>=2.10.0
+numpy>=1.21.0
+scikit-learn>=1.0.0
+Pillow>=9.0.0
+
+
+=== HOW TO RUN WASTE CLASSIFICATION PROJECT ===
+
+1️⃣ INSTALL LIBRARIES:
+   pip install -r requirements.txt
+
+2️⃣ PLACE YOUR IMAGES:
+   Put your waste images in:
+   datasets/original/waste_dataset/metal/
+   datasets/original/waste_dataset/paper/
+   datasets/original/waste_dataset/plastic/
+
+3️⃣ RUN IN THIS ORDER:
+   python scripts/data_augmentation.py
+   python scripts/merge_datasets.py
+   python scripts/split_dataset.py
+   python scripts/train_model.py
+
+4️⃣ OUTPUT:
+   - Augmented images: datasets/augmented/
+   - Merged dataset: datasets/merged/
+   - Split dataset: datasets/split/
+   - Trained model: models/best_model.h5
+
+🚀 QUICK RUN (Windows):
+   run_pipeline.bat
+
+🚀 QUICK RUN (Linux/Mac):
+   bash run_pipeline.sh
+
+📊 Project Structure:
+datasets/
+├── original/     ← PUT YOUR IMAGES HERE
+├── augmented/
+├── merged/
+└── split/
+models/          ← Trained model saved here
+scripts/         ← All Python scripts

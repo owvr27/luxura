@@ -1,0 +1,69 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id             String  @id @default(cuid())
+  name           String
+  email          String  @unique
+  phone          String?
+  location       String?
+  role           String  @default("user")
+  passwordHash   String
+  createdAt      DateTime @default(now())
+  operations     Operation[] @relation("UserOperations")
+  transactions   PointsTransaction[]
+}
+
+model Bin {
+  id               String  @id @default(cuid())
+  binId            String  @unique
+  lat              Float
+  lng              Float
+  status           String @default("Available")
+  capacityUsed     Float     @default(0)
+  acceptsRecycling Boolean   @default(true)
+  lastOperationAt  DateTime?
+  apiKey           String
+  operations       Operation[]
+}
+
+model Operation {
+  id               String  @id @default(cuid())
+  codeId           String  @unique
+  binId            String
+  bin              Bin     @relation(fields: [binId], references: [binId])
+  weight           Float
+  timestamp        DateTime
+  points           Int
+  status           String @default("Unused")
+  redeemedByUserId String?
+  redeemedBy       User?   @relation("UserOperations", fields: [redeemedByUserId], references: [id])
+  expiresAt        DateTime?
+  hmac             String   @unique
+  nonce            String   @unique
+}
+
+model PointsTransaction {
+  id          String  @id @default(cuid())
+  userId      String
+  user        User    @relation(fields: [userId], references: [id])
+  operationId String
+  points      Int
+  type        String
+  createdAt   DateTime @default(now())
+}
+
+model Reward {
+  id             String  @id @default(cuid())
+  title          String
+  pointsRequired Int
+  availability   Int      @default(0)
+  metadata       String?
+  createdAt      DateTime @default(now())
+}

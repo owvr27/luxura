@@ -1,0 +1,278 @@
+{
+  service: 'luxora-backend',
+  error: 'Authentication required',
+  stack: 'Error: Authentication required\n' +
+    '    at <anonymous> (C:\\projects\\luxora-\\backend\\src\\middleware\\auth.ts:16:13)\n' +
+    '    at <anonymous> (C:\\projects\\luxora-\\backend\\src\\middleware\\errorHandler.ts:55:19)\n' +
+    '    at Layer.handle [as handle_request] (C:\\projects\\luxora-\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\projects\\luxora-\\backend\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (C:\\projects\\luxora-\\backend\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\projects\\luxora-\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\projects\\luxora-\\backend\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\projects\\luxora-\\backend\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\projects\\luxora-\\backend\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\projects\\luxora-\\backend\\node_modules\\express\\lib\\router\\index.js:175:3)',
+  url: '/api/chat',
+  method: 'POST',
+  ip: '::1',
+  statusCode: 401,
+  level: 'error',
+  message: 'Error occurred:',
+  timestamp: '2026-03-08 19:02:50'
+}
+{
+  service: 'luxora-backend',
+  error: 'Validation failed: Invalid email format, Password must be at least 6 characters',
+  stack: 'Error: Validation failed: Invalid email format, Password must be at least 6 characters\n' +
+    '    at <anonymous> (/home/lex_is1/Documents/luxora-/backend/src/controllers/authController.ts:59:13)\n' +
+    '    at <anonymous> (/home/lex_is1/Documents/luxora-/backend/src/middleware/errorHandler.ts:70:19)\n' +
+    '    at Layer.handle [as handle_request] (/home/lex_is1/Documents/luxora-/backend/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at next (/home/lex_is1/Documents/luxora-/backend/node_modules/express/lib/router/route.js:149:13)\n' +
+    '    at Route.dispatch (/home/lex_is1/Documents/luxora-/backend/node_modules/express/lib/router/route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (/home/lex_is1/Documents/luxora-/backend/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at /home/lex_is1/Documents/luxora-/backend/node_modules/express/lib/router/index.js:284:15\n' +
+    '    at Function.process_params (/home/lex_is1/Documents/luxora-/backend/node_modules/express/lib/router/index.js:346:12)\n' +
+    '    at next (/home/lex_is1/Documents/luxora-/backend/node_modules/express/lib/router/index.js:280:10)\n' +
+    '    at Function.handle (/home/lex_is1/Documents/luxora-/backend/node_modules/express/lib/router/index.js:175:3)',
+  url: '/auth/login',
+  method: 'POST',
+  ip: '127.0.0.1',
+  statusCode: 400,
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36',
+  timestamp: '2026-04-18 01:22:40',
+  level: 'error',
+  message: 'Error occurred:'
+}
+{
+  service: 'luxora-backend',
+  error: 'Validation failed: Invalid email format, Password must be at least 6 characters',
+  stack: 'Error: Validation failed: Invalid email format, Password must be at least 6 characters\n' +
+    '    at <anonymous> (/home/lex_is1/Documents/luxora-/backend/src/controllers/authController.ts:59:13)\n' +
+    '    at <anonymous> (/home/lex_is1/Documents/luxora-/backend/src/middleware/errorHandler.ts:70:19)\n' +
+    '    at Layer.handle [as handle_request] (/home/lex_is1/Documents/luxora-/backend/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at next (/home/lex_is1/Documents/luxora-/backend/node_modules/express/lib/router/route.js:149:13)\n' +
+    '    at Route.dispatch (/home/lex_is1/Documents/luxora-/backend/node_modules/express/lib/router/route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (/home/lex_is1/Documents/luxora-/backend/node_modules/express/lib/router/layer.js:95:5)\n' +
+    '    at /home/lex_is1/Documents/luxora-/backend/node_modules/express/lib/router/index.js:284:15\n' +
+    '    at Function.process_params (/home/lex_is1/Documents/luxora-/backend/node_modules/express/lib/router/index.js:346:12)\n' +
+    '    at next (/home/lex_is1/Documents/luxora-/backend/node_modules/express/lib/router/index.js:280:10)\n' +
+    '    at Function.handle (/home/lex_is1/Documents/luxora-/backend/node_modules/express/lib/router/index.js:175:3)',
+  url: '/auth/login',
+  method: 'POST',
+  ip: '127.0.0.1',
+  statusCode: 400,
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36',
+  timestamp: '2026-04-18 01:22:41',
+  level: 'error',
+  message: 'Error occurred:'
+}
+{
+  service: 'luxora-backend',
+  error: 'Invalid credentials',
+  stack: 'Error: Invalid credentials\n' +
+    '    at AuthService.login (/home/lex_is1/Documents/luxora-/backend/src/services/authService.ts:53:13)\n' +
+    '    at async <anonymous> (/home/lex_is1/Documents/luxora-/backend/src/controllers/authController.ts:62:29)',
+  url: '/auth/login',
+  method: 'POST',
+  ip: '127.0.0.1',
+  statusCode: 401,
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-18 17:02:28',
+  level: 'error',
+  message: 'Error occurred:'
+}
+{
+  service: 'luxora-backend',
+  error: 'Invalid credentials',
+  stack: 'Error: Invalid credentials\n' +
+    '    at AuthService.login (/home/lex_is1/Documents/luxora-/backend/src/services/authService.ts:53:13)\n' +
+    '    at async <anonymous> (/home/lex_is1/Documents/luxora-/backend/src/controllers/authController.ts:62:29)',
+  url: '/auth/login',
+  method: 'POST',
+  ip: '127.0.0.1',
+  statusCode: 401,
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-18 17:02:36',
+  level: 'error',
+  message: 'Error occurred:'
+}
+{
+  service: 'luxora-backend',
+  error: 'Email already exists',
+  stack: 'Error: Email already exists\n' +
+    '    at AuthService.register (/home/lex_is1/Documents/luxora-/backend/src/services/authService.ts:26:13)\n' +
+    '    at async <anonymous> (/home/lex_is1/Documents/luxora-/backend/src/controllers/authController.ts:33:29)',
+  url: '/auth/register',
+  method: 'POST',
+  ip: '127.0.0.1',
+  statusCode: 409,
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-18 17:03:44',
+  level: 'error',
+  message: 'Error occurred:'
+}
+{
+  service: 'luxora-backend',
+  error: 'Email already exists',
+  stack: 'Error: Email already exists\n' +
+    '    at AuthService.register (/home/lex_is1/Documents/luxora-/backend/src/services/authService.ts:26:13)\n' +
+    '    at async <anonymous> (/home/lex_is1/Documents/luxora-/backend/src/controllers/authController.ts:33:29)',
+  url: '/auth/register',
+  method: 'POST',
+  ip: '127.0.0.1',
+  statusCode: 409,
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-18 17:05:35',
+  level: 'error',
+  message: 'Error occurred:'
+}
+{
+  service: 'luxora-backend',
+  error: 'Email already exists',
+  stack: 'Error: Email already exists\n' +
+    '    at AuthService.register (/home/lex_is1/Documents/luxora-/backend/src/services/authService.ts:26:13)\n' +
+    '    at async <anonymous> (/home/lex_is1/Documents/luxora-/backend/src/controllers/authController.ts:33:29)',
+  url: '/auth/register',
+  method: 'POST',
+  ip: '127.0.0.1',
+  statusCode: 409,
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-18 23:53:01',
+  level: 'error',
+  message: 'Error occurred:'
+}
+{
+  service: 'luxora-backend',
+  error: 'Email already exists',
+  stack: 'Error: Email already exists\n' +
+    '    at AuthService.register (/home/lex_is1/Documents/luxora-/backend/src/services/authService.ts:26:13)\n' +
+    '    at async <anonymous> (/home/lex_is1/Documents/luxora-/backend/src/controllers/authController.ts:33:29)',
+  url: '/auth/register',
+  method: 'POST',
+  ip: '127.0.0.1',
+  statusCode: 409,
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-18 23:53:10',
+  level: 'error',
+  message: 'Error occurred:'
+}
+{
+  service: 'luxora-backend',
+  error: 'Email already exists',
+  stack: 'Error: Email already exists\n' +
+    '    at AuthService.register (/home/lex_is1/Documents/luxora-/backend/src/services/authService.ts:26:13)\n' +
+    '    at async <anonymous> (/home/lex_is1/Documents/luxora-/backend/src/controllers/authController.ts:33:29)',
+  url: '/auth/register',
+  method: 'POST',
+  ip: '127.0.0.1',
+  statusCode: 409,
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-18 23:54:37',
+  level: 'error',
+  message: 'Error occurred:'
+}
+{
+  service: 'luxora-backend',
+  error: 'Email already exists',
+  stack: 'Error: Email already exists\n' +
+    '    at AuthService.register (/home/lex_is1/Documents/luxora-/backend/src/services/authService.ts:26:13)\n' +
+    '    at async <anonymous> (/home/lex_is1/Documents/luxora-/backend/src/controllers/authController.ts:33:29)',
+  url: '/auth/register',
+  method: 'POST',
+  ip: '127.0.0.1',
+  statusCode: 409,
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-19 00:16:12',
+  level: 'error',
+  message: 'Error occurred:'
+}
+{
+  service: 'luxora-backend',
+  error: 'Email already exists',
+  stack: 'Error: Email already exists\n' +
+    '    at AuthService.register (/home/lex_is1/Documents/luxora-/backend/src/services/authService.ts:26:13)\n' +
+    '    at async <anonymous> (/home/lex_is1/Documents/luxora-/backend/src/controllers/authController.ts:33:29)',
+  url: '/auth/register',
+  method: 'POST',
+  ip: '127.0.0.1',
+  statusCode: 409,
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-19 00:18:18',
+  level: 'error',
+  message: 'Error occurred:'
+}
+{
+  service: 'luxora-backend',
+  error: 'Email already exists',
+  stack: 'Error: Email already exists\n' +
+    '    at AuthService.register (/home/lex_is1/Documents/luxora-/backend/src/services/authService.ts:26:13)\n' +
+    '    at async <anonymous> (/home/lex_is1/Documents/luxora-/backend/src/controllers/authController.ts:33:29)',
+  url: '/auth/register',
+  method: 'POST',
+  ip: '127.0.0.1',
+  statusCode: 409,
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-19 00:18:30',
+  level: 'error',
+  message: 'Error occurred:'
+}
+{
+  service: 'luxora-backend',
+  error: 'Email already exists',
+  stack: 'Error: Email already exists\n' +
+    '    at AuthService.register (/home/lex_is1/Documents/luxora-/backend/src/services/authService.ts:26:13)\n' +
+    '    at async <anonymous> (/home/lex_is1/Documents/luxora-/backend/src/controllers/authController.ts:33:29)',
+  url: '/auth/register',
+  method: 'POST',
+  ip: '127.0.0.1',
+  statusCode: 409,
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-19 00:55:40',
+  level: 'error',
+  message: 'Error occurred:'
+}
+{
+  service: 'luxora-backend',
+  error: 'Email already exists',
+  stack: 'Error: Email already exists\n' +
+    '    at AuthService.register (/home/lex_is1/Documents/luxora-/backend/src/services/authService.ts:26:13)\n' +
+    '    at async <anonymous> (/home/lex_is1/Documents/luxora-/backend/src/controllers/authController.ts:33:29)',
+  url: '/auth/register',
+  method: 'POST',
+  ip: '127.0.0.1',
+  statusCode: 409,
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-19 00:55:47',
+  level: 'error',
+  message: 'Error occurred:'
+}
+{
+  service: 'luxora-backend',
+  error: 'Email already exists',
+  stack: 'Error: Email already exists\n' +
+    '    at AuthService.register (/home/lex_is1/Documents/luxora-/backend/src/services/authService.ts:26:13)\n' +
+    '    at async <anonymous> (/home/lex_is1/Documents/luxora-/backend/src/controllers/authController.ts:33:29)',
+  url: '/auth/register',
+  method: 'POST',
+  ip: '127.0.0.1',
+  statusCode: 409,
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-19 00:56:13',
+  level: 'error',
+  message: 'Error occurred:'
+}
+{
+  service: 'luxora-backend',
+  error: 'Email already exists',
+  stack: 'Error: Email already exists\n' +
+    '    at AuthService.register (/home/lex_is1/Documents/luxora-/backend/src/services/authService.ts:26:13)\n' +
+    '    at async <anonymous> (/home/lex_is1/Documents/luxora-/backend/src/controllers/authController.ts:33:29)',
+  url: '/auth/register',
+  method: 'POST',
+  ip: '127.0.0.1',
+  statusCode: 409,
+  userAgent: 'curl/8.15.0',
+  timestamp: '2026-04-19 00:56:20',
+  level: 'error',
+  message: 'Error occurred:'
+}

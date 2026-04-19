@@ -1,0 +1,14 @@
+nohup: ignoring input
+npm warn exec The following package was not found and will be installed: tsx@4.21.0
+/home/lex_is1/Documents/luxora-/backend/src/config.ts:8
+    throw new Error(`❌ Environment variable ${key} is not set. Please check your .env file.`);
+          ^
+
+Error: ❌ Environment variable JWT_SECRET is not set. Please check your .env file.
+    at requireEnv (/home/lex_is1/Documents/luxora-/backend/src/config.ts:8:11)
+    at <anonymous> (/home/lex_is1/Documents/luxora-/backend/src/config.ts:24:15)
+    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:665:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+
+Node.js v22.22.0

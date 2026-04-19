@@ -1,0 +1,125 @@
+#include "esp_camera.h"
+#include <WiFi.h>
+#include <HTTPClient.h>
+
+// ===== WIFI =====
+const char* ssid = "AHMED";
+const char* password = "KLM1375H";
+
+// ===== NGROK UPLOAD URL =====
+// MUST end with /upload
+const char* uploadUrl = "https://true-crabs-march.loca.lt/upload";
+
+// ===== CAMERA PINS (ESP32 WROVER KIT) =====
+#define PWDN_GPIO_NUM     -1
+#define RESET_GPIO_NUM    -1
+#define XCLK_GPIO_NUM      21
+#define SIOD_GPIO_NUM      26
+#define SIOC_GPIO_NUM      27
+
+#define Y9_GPIO_NUM        35
+#define Y8_GPIO_NUM        34
+#define Y7_GPIO_NUM        39
+#define Y6_GPIO_NUM        36
+#define Y5_GPIO_NUM        19
+#define Y4_GPIO_NUM        18
+#define Y3_GPIO_NUM         5
+#define Y2_GPIO_NUM         4
+#define VSYNC_GPIO_NUM     25
+#define HREF_GPIO_NUM      23
+#define PCLK_GPIO_NUM      22
+
+void setup() {
+  Serial.begin(115200);
+  Serial.println("Booting...");
+
+  // ===== CAMERA CONFIG =====
+  camera_config_t config;
+  config.ledc_channel = LEDC_CHANNEL_0;
+  config.ledc_timer = LEDC_TIMER_0;
+  config.pin_d0 = Y2_GPIO_NUM;
+  config.pin_d1 = Y3_GPIO_NUM;
+  config.pin_d2 = Y4_GPIO_NUM;
+  config.pin_d3 = Y5_GPIO_NUM;
+  config.pin_d4 = Y6_GPIO_NUM;
+  config.pin_d5 = Y7_GPIO_NUM;
+  config.pin_d6 = Y8_GPIO_NUM;
+  config.pin_d7 = Y9_GPIO_NUM;
+  config.pin_xclk = XCLK_GPIO_NUM;
+  config.pin_pclk = PCLK_GPIO_NUM;
+  config.pin_vsync = VSYNC_GPIO_NUM;
+  config.pin_href = HREF_GPIO_NUM;
+  config.pin_sscb_sda = SIOD_GPIO_NUM;
+  config.pin_sscb_scl = SIOC_GPIO_NUM;
+  config.pin_pwdn = PWDN_GPIO_NUM;
+  config.pin_reset = RESET_GPIO_NUM;
+  config.xclk_freq_hz = 20000000;
+  config.pixel_format = PIXFORMAT_JPEG;
+
+  config.frame_size = FRAMESIZE_QVGA;
+  config.jpeg_quality = 12;
+  config.fb_count = 1;
+
+  if (esp_camera_init(&config) != ESP_OK) {
+    Serial.println("❌ Camera init failed!");
+    return;
+  }
+  Serial.println("📷 Camera started.");
+
+  // ===== WIFI =====
+  WiFi.begin(ssid, password);
+  Serial.print("Connecting to WiFi");
+  while (WiFi.status() != WL_CONNECTED) {
+    Serial.print(".");
+    delay(400);
+  }
+  Serial.println("\n✔ WiFi connected");
+}
+
+void loop() {
+
+  Serial.println("📸 Capturing image...");
+  camera_fb_t *fb = esp_camera_fb_get();
+
+  if (!fb) {
+    Serial.println("❌ Capture failed");
+    delay(2000);
+    return;
+  }
+
+  Serial.printf("Image size: %d bytes\n", fb->len);
+
+  // ===== BYPASS SSL HANDSHAKE =====
+  WiFiClientSecure client;
+  client.setInsecure();    // <<< THIS BYPASSES CERTIFICATE VALIDATION
+
+  HTTPClient http;
+  http.begin(client, uploadUrl);
+
+  // =========================================================
+  // === AUTHENTICATION HEADER ADDED HERE ====================
+  // =========================================================
+  // Base64-encoded value for credentials: :156.202.45.89 
+  const char* authHeaderValue = "Basic OjE1Ni4yMDIuNDUuODk="; 
+  http.addHeader("Authorization", authHeaderValue);
+  // =========================================================
+
+  http.addHeader("Content-Type", "image/jpeg");
+
+  // Send POST request
+  int response = http.POST(fb->buf, fb->len);
+
+  Serial.print("Server Response: ");
+  Serial.println(response);
+
+  if (response > 0) {
+    Serial.println(http.getString());
+  } else {
+    Serial.println("❌ Failed to send POST");
+  }
+
+  http.end();
+  esp_camera_fb_return(fb);
+
+  delay(5000); // wait 5 seconds before next photo
+}
